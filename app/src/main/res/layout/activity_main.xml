@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_ocrresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="텍스트 추출 결과"
+        android:gravity="center"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btn_clip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clip" />
+
+    <Button
+        android:id="@+id/btn_toss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toss" />
+
+
+</LinearLayout>
